@@ -52,22 +52,22 @@ export default function Nav(){
         <NavBar>
                 <NavUl>
                     <NavLi>
-                        <ALink to = {"/"}> Home </ALink>
+                        <ALink to = "/" > Home </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {"/education"}> Education </ALink>
+                        <ALink to = "/education" > Education </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {"/employment"}> Employment </ALink>
+                        <ALink to = "/employment" > Employment </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {"/projects"}> Projects </ALink>
+                        <ALink to = "/projects" > Projects </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {"/leadership"}> Leadership </ALink>
+                        <ALink to = "/leadership" > Leadership </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {"/coding"}> Coding </ALink>
+                        <ALink to = "/coding" > Coding </ALink>
                     </NavLi>
                 </NavUl>
         </NavBar>

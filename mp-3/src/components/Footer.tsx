@@ -23,7 +23,7 @@ const ALink = styled(Link)`
 export default function Footer(){
     return (
         <ReturnFooter>
-            <p>All Rights Reserved by Aaron Chen <ALink to = {""}> Credits </ALink> &copy; </p>
+            <p>All Rights Reserved by Aaron Chen <ALink to = ""> Credits </ALink> &copy; </p>
         </ReturnFooter>
     );
 }

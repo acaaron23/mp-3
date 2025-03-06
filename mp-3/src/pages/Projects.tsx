@@ -42,7 +42,7 @@ export default function Projects() {
                         </li>
                     </ul>
                     <br/>
-                    <h3><ALink to={"https://rotreset.tech/"}> RotReset - the solution to burnout </ALink></h3>
+                    <h3><ALink to= "https://rotreset.tech/" target = "_blank"> RotReset - the solution to burnout </ALink></h3>
                     <ul>
                         <li>Pioneered an application with TailwindCSS, React, Shadcn, TypeScript, Firebase, Firestore,
                             and Figma
@@ -53,7 +53,7 @@ export default function Projects() {
                         </li>
                     </ul>
                     <br/>
-                    <h3><ALink to={"https://nycknot.glitch.me/"}> knot - find your next go-to </ALink></h3>
+                    <h3><ALink to="https://nycknot.glitch.me/" target = "_blank" > knot - find your next go-to </ALink></h3>
                     <ul>
                         <li>Designed and developed a dynamic website using HTML, CSS, and JavaScript that connects NYC
                             customers with new restaurants across all five boroughs
