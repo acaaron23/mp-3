@@ -2,7 +2,7 @@ import {styled} from "styled-components";
 import Main from "../components/Main.tsx";
 import MainTitle from "../components/MainTitle.tsx";
 
-const BUCSC = styled.div`
+const BuCSC = styled.div`
     display: flex;
     flex-direction: row;
 `;
@@ -45,14 +45,14 @@ export default function Projects() {
     return (
         <Main>
             <MainTitle> Leadership Roles </MainTitle>
-                <BUCSC>
+                <BuCSC>
                     <BUCSCLogo src = {"/../public/bucsc.png"} alt={"BU CSC Logo"}/>
                     <BUCSCInfo>
                         <h3><b>BU Computer Science Club</b></h3>
                         <h4><i>Computer Science Advisor</i></h4>
                         <h4>January 2025 - Present</h4>
                     </BUCSCInfo>
-                </BUCSC>
+                </BuCSC>
                 <LeadershipInfo>
                         <ul>
                             <li>Facilitated mentorship opportunities for underclassmen to navigate academic pathways,

@@ -44,7 +44,7 @@ const NavLi = styled.li`
     }
 `;
 
-const ALink = styled(Link)`
+const StyledLink = styled(Link)`
     text-decoration: none;
     color: darkred;
 `;
@@ -54,22 +54,22 @@ export default function Nav(){
         <NavBar>
                 <NavUl>
                     <NavLi>
-                        <ALink to = {`/`} > Home </ALink>
+                        <StyledLink to = {`/`} > Home </StyledLink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {`/education`} > Education </ALink>
+                        <StyledLink to = {`/education`} > Education </StyledLink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {`/employment`} > Employment </ALink>
+                        <StyledLink to = {`/employment`} > Employment </StyledLink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {`/projects`} > Projects </ALink>
+                        <StyledLink to = {`/projects`} > Projects </StyledLink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {`/leadership`} > Leadership </ALink>
+                        <StyledLink to = {`/leadership`} > Leadership </StyledLink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = {`/coding`} > Coding </ALink>
+                        <StyledLink to = {`/coding`} > Coding </StyledLink>
                     </NavLi>
                 </NavUl>
         </NavBar>

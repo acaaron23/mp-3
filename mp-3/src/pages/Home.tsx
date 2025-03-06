@@ -56,7 +56,7 @@ export default function Home(){
                         <MainTitle>Home</MainTitle>
                         <MainDiv>
                             <ImgDiv>
-                                <ProfileImage src= {"/ac_pfp.jpeg"} alt = {"Picture of Aaron Chen"} />
+                                <ProfileImage src= {"/../public/ac_pfp.jpeg"} alt = {"Picture of Aaron Chen"} />
                             </ImgDiv>
                             <MainText>
                                 <p>
