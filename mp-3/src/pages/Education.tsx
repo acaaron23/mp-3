@@ -49,7 +49,7 @@ export default function Education() {
                     </MainDiv>
                     <EduInfo>
                         <FlexContainer>
-                            <BuPng src= {"/../public/bu.png"} alt= {"BU Picture"}/>
+                            <BuPng src= {"/bu.png"} alt= {"BU Picture"}/>
                             <FlexContainer2>
                                 <h2> Boston University</h2>
                                 <h4> Boston, MA </h4>
