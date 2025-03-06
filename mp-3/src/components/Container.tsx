@@ -4,7 +4,12 @@ const Container = styled.div`
     width: 100%;
     display: flex;
     flex-direction: row;
-    position: relative;
+    
+    @media screen and (max-width: 750px){
+            width: 100%;
+            flex-direction: column;
+            height: 100%
+        }
 `;
 
 export default Container;

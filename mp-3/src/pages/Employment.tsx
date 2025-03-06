@@ -1,25 +1,44 @@
 import {styled} from "styled-components";
 import Main from "../components/Main.tsx";
 import MainDiv from "../components/MainDiv.tsx";
-import MainTitle from "../components/MainTitle";
+import MainTitle from "../components/MainTitle.tsx";
 
 const EmploymentInfo = styled.div`
+    text-align: left;
     display: flex;
     flex-direction: column;
-    font-size: calc(1px + 1.2vw);
+    font-size: calc(2px + 1vw);
+
+    @media screen and (max-width: 750px) {
+        margin-left: 5px;
+        font-size: calc(6px + 1.15vw);
+    }
+`;
+
+const PositionInfo = styled.div`
+    text-align: left;
+    font-size: calc(3px + 1vw);
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 5px;
+
+    @media screen and (max-width: 750px) {
+        font-size: calc(6px + 1.25vw);
+    }
 `;
 
 export default function Employment(){
-
     return(
-
                 <Main>
-                    <MainTitle>Work Experience History</MainTitle>
+                    <MainTitle> Work Experience History </MainTitle>
                     <MainDiv>
                         <EmploymentInfo>
-                            <h3>Boston University Fitness and Recreational Center</h3>
-                            <h4><i> Fitness Attendant</i></h4>
-                            <h4>December 2024 - Present</h4>
+                            <PositionInfo>
+                                <h3>Boston University Fitness and Recreational Center</h3>
+                                <h4><i> Fitness Attendant</i></h4>
+                                <h4>December 2024 - Present</h4>
+                            </PositionInfo>
                             <ul>
                                 <li>Ensured a clean and safe exercise environment by conducting regular maintenance checks and
                                     adhering to safety protocols
@@ -32,9 +51,11 @@ export default function Employment(){
                                 </li>
                             </ul>
                             <br/>
+                            <PositionInfo>
                             <h3>New York City Housing Authority - NYCHA</h3>
                             <h4><i>Infrastructure & Operations Intern</i></h4>
                             <h4>July 2024 - August 2024</h4>
+                             </PositionInfo>
                             <ul>
                                 <li>Documented configuration and deployment of 500+ network devices using industry-standard
                                     protocols to
@@ -45,9 +66,11 @@ export default function Employment(){
                                 </li>
                             </ul>
                             <br/>
+                            <PositionInfo>
                             <h3>PYE Education Center</h3>
                             <h4><i>STEM Project Development Intern</i></h4>
                             <h4>December 2024 - Present</h4>
+                            </PositionInfo>
                             <ul>
                                 <li>Designed and implemented coding-centric projects leveraging expertise in Python and C++ to
                                     simplify
@@ -61,7 +84,5 @@ export default function Employment(){
                         </EmploymentInfo>
                     </MainDiv>
                 </Main>
-
-
     );
 }
