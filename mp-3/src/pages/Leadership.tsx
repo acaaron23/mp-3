@@ -25,7 +25,7 @@ const BUCSCInfo = styled.div`
     padding: 6vh 1vw;
 
     @media screen and (max-width: 750px) {
-        font-size: calc(6px + 1.25vw);
+        font-size: calc(8px + 1.25vw);
     }
 `;
 
@@ -37,7 +37,7 @@ const LeadershipInfo = styled.div`
     padding: 3vh 3vw;
 
     @media screen and (max-width: 750px) {
-        font-size: calc(6px + 1.25vw);
+        font-size: calc(8px + 1.25vw);
     }
 `;
 

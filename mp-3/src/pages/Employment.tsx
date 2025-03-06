@@ -11,7 +11,7 @@ const EmploymentInfo = styled.div`
 
     @media screen and (max-width: 750px) {
         margin-left: 5px;
-        font-size: calc(6px + 1.15vw);
+        font-size: calc(6px + 1.2vw);
     }
 `;
 
@@ -24,7 +24,7 @@ const PositionInfo = styled.div`
     margin-bottom: 5px;
 
     @media screen and (max-width: 750px) {
-        font-size: calc(6px + 1.25vw);
+        font-size: calc(6px + 1.2vw);
     }
 `;
 

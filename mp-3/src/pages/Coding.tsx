@@ -7,6 +7,7 @@ const MainText = styled.div`
     font-size: calc(1px + 1.6vw);
     color: black;
     
+    
     @media screen and (max-width: 750px) {
         align-self: center;
         width: 100%;
@@ -18,11 +19,11 @@ const MainText = styled.div`
 const CodingInfo = styled.div`
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 30px;
     font-size: calc(1px + 1.1vw);
 
     @media screen and (max-width: 750px) {
-        font-size: calc(2px + 1.5vw);
+        font-size: calc(4px + 1.5vw);
     }
 `;
 

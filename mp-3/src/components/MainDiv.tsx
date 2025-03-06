@@ -8,6 +8,7 @@ const MainDiv = styled.div`
     
     @media screen and (max-width: 750px) {
         width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;

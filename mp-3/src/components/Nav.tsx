@@ -14,10 +14,12 @@ const NavUl = styled.ul`
     flex-direction: column;
     justify-content: space-evenly;
     background-color: rgb(204, 0, 0);
+    height: 100%;
     font-size: calc(1px + 1vw);
     text-align: center;
     list-style: none;
     padding-left: 0;
+
 
     @media screen and (max-width: 750px) {
         background-color: rgb(204, 0, 0);

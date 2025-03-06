@@ -5,10 +5,11 @@ const Main = styled.div`
     flex-direction: column;
     width: 70%;
     background-color: lightblue;
+    height: 100vh;
 
     @media screen and (max-width: 750px){
-        padding-top: 1px;
         width: 100%;
+        height: 100vh;
     }
 `;
 

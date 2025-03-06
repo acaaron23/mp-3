@@ -11,10 +11,10 @@ const ProjectsInfo = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    font-size: calc(1px + 1vw);
+    font-size: calc(1px + 1.1vw);
 
     @media screen and (max-width: 750px) {
-        font-size: calc(3px + 1.1vw);
+        font-size: calc(6px + 1.2vw);
     }
 `;
 

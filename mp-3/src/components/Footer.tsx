@@ -6,13 +6,6 @@ const ReturnFooter = styled.footer`
     background-color: lightgray;
     width: 100%;
     font-size: calc(1px + 1.25vw);
-    
-    @media screen and (max-width: 750px) {
-        text-align: center;
-        background-color: lightgray;
-        width: 100%;
-        font-size: calc(1px + 1.5vw);
-    }
 `;
 
 const ALink = styled(Link)`

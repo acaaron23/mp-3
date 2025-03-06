@@ -12,7 +12,7 @@ const EduInfo = styled.div`
     width: 90%;
     display: flex;
     flex-direction: column;
-    font-size: calc(3px + 1.2vw);
+    font-size: calc(3px + 1.1vw);
     padding: 1vh 1.6vw;
 
     @media screen and (max-width: 750px) {

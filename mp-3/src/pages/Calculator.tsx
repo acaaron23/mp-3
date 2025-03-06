@@ -15,43 +15,63 @@ const JsCalc = styled.p`
     text-align: center;
     font-size: calc(1px + 1.25vw);
     font-weight: bold;
+
+    @media screen and (max-width: 750px) {
+        font-size: calc(6px + 1.2vw);
+    }
 `;
 
 const FirstNumber = styled.input`
     width: 100%;
     padding: 2px;
-    margin: 8px 0;
+    margin: 2px 0;
     font-size: calc(1px + 1vw);
     border-radius: 5px;
+
+    @media screen and (max-width: 750px) {
+        font-size: calc(6px + 1.2vw);
+    }
 `;
 
 const SecondNumber = styled.input`
     width: 100%;
     padding: 2px;
-    margin: 8px 0;
+    margin: 2px 0;
     font-size: calc(1px + 1vw);
     border-radius: 5px;
+
+    @media screen and (max-width: 750px) {
+        font-size: calc(6px + 1.2vw);
+    }
 `;
 
 const OutputMsg = styled.div`
-    margin-top: 10px;
+    margin-top: 5px;
     background-color: lightgray;
-    padding: 15px;
+    padding: 3px;
     border-radius: 8px;
 `;
 
 const Button = styled.button`
-    padding: 12px;
-    font-size: 15px;
+    padding: 8px;
+    font-size: 10px;
     color: white;
     background-color: orangered;
-    border-radius: 10px;
+    border-radius: 15px;
+
+    @media screen and (max-width: 750px) {
+        padding: 10px;
+    }
 `;
 
 const Output = styled.output`
     font-size: calc(1px + 1vw);
     font-weight: bold;
     color: black;
+
+    @media screen and (max-width: 750px) {
+        font-size: 15px;
+    }
 `;
 
 export default function Calculator  () {
@@ -101,7 +121,7 @@ export default function Calculator  () {
 
     return (
         <CalculatorDiv>
-            <JsCalc> Javascript Calculator </JsCalc>
+            <JsCalc> Calculator </JsCalc>
             <div>
                 <FirstNumber
                     type = "number"
