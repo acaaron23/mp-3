@@ -13,7 +13,7 @@ const CalculatorDiv = styled.div`
 const JsCalc = styled.p`
     color: red;
     text-align: center;
-    font-size: calc(1px + 1.25vw);
+    font-size: calc(2px + 1.25vw);
     font-weight: bold;
 
     @media screen and (max-width: 750px) {
@@ -25,7 +25,7 @@ const FirstNumber = styled.input`
     width: 100%;
     padding: 2px;
     margin: 2px 0;
-    font-size: calc(1px + 1vw);
+    font-size: calc(2px + 1vw);
     border-radius: 5px;
 
     @media screen and (max-width: 750px) {
@@ -37,7 +37,7 @@ const SecondNumber = styled.input`
     width: 100%;
     padding: 2px;
     margin: 2px 0;
-    font-size: calc(1px + 1vw);
+    font-size: calc(2px + 1vw);
     border-radius: 5px;
 
     @media screen and (max-width: 750px) {
@@ -65,7 +65,7 @@ const Button = styled.button`
 `;
 
 const Output = styled.output`
-    font-size: calc(1px + 1vw);
+    font-size: calc(2px + 1vw);
     font-weight: bold;
     color: black;
 

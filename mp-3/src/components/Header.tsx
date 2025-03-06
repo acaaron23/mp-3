@@ -17,7 +17,7 @@ export default function Header() {
     return(
         <StyledHeader>
             <h1>Aaron Chen</h1>
-            <p>Online Resume Portfolio
-        </p></StyledHeader>
+            <p>Online Resume Portfolio</p>
+        </StyledHeader>
     );
 }

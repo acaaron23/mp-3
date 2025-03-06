@@ -11,14 +11,14 @@ const ProjectsInfo = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    font-size: calc(1px + 1.1vw);
+    font-size: calc(2px + 1vw);
 
     @media screen and (max-width: 750px) {
         font-size: calc(6px + 1.2vw);
     }
 `;
 
-const ALink = styled(Link)`
+const StyledLink = styled(Link)`
     text-decoration: none;
     color: darkred;
 `;
@@ -42,7 +42,7 @@ export default function Projects() {
                         </li>
                     </ul>
                     <br/>
-                    <h3><ALink to= "https://rotreset.tech/" target = "_blank"> RotReset - the solution to burnout </ALink></h3>
+                    <h3><StyledLink to= {`https://rotreset.tech/`} target = "_blank"> RotReset - the solution to burnout </StyledLink></h3>
                     <ul>
                         <li>Pioneered an application with TailwindCSS, React, Shadcn, TypeScript, Firebase, Firestore,
                             and Figma
@@ -53,7 +53,7 @@ export default function Projects() {
                         </li>
                     </ul>
                     <br/>
-                    <h3><ALink to="https://nycknot.glitch.me/" target = "_blank" > knot - find your next go-to </ALink></h3>
+                    <h3><StyledLink to= {`https://nycknot.glitch.me/`} target = "_blank" > knot - find your next go-to </StyledLink></h3>
                     <ul>
                         <li>Designed and developed a dynamic website using HTML, CSS, and JavaScript that connects NYC
                             customers with new restaurants across all five boroughs

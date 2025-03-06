@@ -21,12 +21,12 @@ function Root() {
             <Container>
                 <Nav/>
                 <Routes>
-                    <Route path = "/" element = {<Home />} />
-                    <Route path = "/education" element = {<Education />} />
-                    <Route path = "/employment" element = {<Employment />} />
-                    <Route path = "/projects" element = {<Projects/>} />
-                    <Route path = "/leadership" element = {<Leadership/>} />
-                    <Route path = "/coding" element = {<Coding/>} />
+                    <Route path = {`/`} element = {<Home />} />
+                    <Route path = {`/education`} element = {<Education />} />
+                    <Route path = {`/employment`} element = {<Employment />} />
+                    <Route path = {`/projects`} element = {<Projects/>} />
+                    <Route path = {`/leadership`} element = {<Leadership/>} />
+                    <Route path = {`/coding`} element = {<Coding/>} />
                 </Routes>
             </Container>
             <Footer/>

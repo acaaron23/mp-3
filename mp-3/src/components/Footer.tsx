@@ -5,10 +5,10 @@ const ReturnFooter = styled.footer`
     text-align: center;
     background-color: lightgray;
     width: 100%;
-    font-size: calc(1px + 1.25vw);
+    font-size: calc(2px + 1.25vw);
 `;
 
-const ALink = styled(Link)`
+const StyledLink = styled(Link)`
     text-decoration: none;
     color: darkred;
 `;
@@ -16,7 +16,7 @@ const ALink = styled(Link)`
 export default function Footer(){
     return (
         <ReturnFooter>
-            <p>All Rights Reserved by Aaron Chen <ALink to = ""> Credits </ALink> &copy; </p>
+            <p>All Rights Reserved by Aaron Chen <StyledLink to = {``}> Credits </StyledLink> &copy; </p>
         </ReturnFooter>
     );
 }

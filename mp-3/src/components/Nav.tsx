@@ -15,7 +15,7 @@ const NavUl = styled.ul`
     justify-content: space-evenly;
     background-color: rgb(204, 0, 0);
     height: 100%;
-    font-size: calc(1px + 1vw);
+    font-size: calc(2px + 1vw);
     text-align: center;
     list-style: none;
     padding-left: 0;
@@ -38,7 +38,7 @@ const NavLi = styled.li`
 
     @media screen and (max-width: 750px) {
         background-color: mintcream;
-        font-size: calc(1px + 1.6vw);
+        font-size: calc(2px + 1.2vw);
         padding: 1%;
         margin: 1% 2%;
     }
@@ -54,22 +54,22 @@ export default function Nav(){
         <NavBar>
                 <NavUl>
                     <NavLi>
-                        <ALink to = "/" > Home </ALink>
+                        <ALink to = {`/`} > Home </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = "/education" > Education </ALink>
+                        <ALink to = {`/education`} > Education </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = "/employment" > Employment </ALink>
+                        <ALink to = {`/employment`} > Employment </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = "/projects" > Projects </ALink>
+                        <ALink to = {`/projects`} > Projects </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = "/leadership" > Leadership </ALink>
+                        <ALink to = {`/leadership`} > Leadership </ALink>
                     </NavLi>
                     <NavLi>
-                        <ALink to = "/coding" > Coding </ALink>
+                        <ALink to = {`/coding`} > Coding </ALink>
                     </NavLi>
                 </NavUl>
         </NavBar>

@@ -46,7 +46,7 @@ export default function Projects() {
         <Main>
             <MainTitle> Leadership Roles </MainTitle>
                 <BUCSC>
-                    <BUCSCLogo src={"/bucsc.png"} alt={"BU CSC Logo"}/>
+                    <BUCSCLogo src = {"/../public/bucsc.png"} alt={"BU CSC Logo"}/>
                     <BUCSCInfo>
                         <h3><b>BU Computer Science Club</b></h3>
                         <h4><i>Computer Science Advisor</i></h4>

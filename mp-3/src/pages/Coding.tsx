@@ -4,7 +4,7 @@ import MainTitle from "../components/MainTitle.tsx";
 
 const MainText = styled.div`
     text-align: center;
-    font-size: calc(1px + 1.6vw);
+    font-size: calc(2px + 1.6vw);
     color: black;
     
     
@@ -20,7 +20,7 @@ const CodingInfo = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 30px;
-    font-size: calc(1px + 1.1vw);
+    font-size: calc(2px + 1.1vw);
 
     @media screen and (max-width: 750px) {
         font-size: calc(4px + 1.5vw);
