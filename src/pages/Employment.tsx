@@ -2,6 +2,7 @@ import {styled} from "styled-components";
 import Main from "../components/Main.tsx";
 import MainDiv from "../components/MainDiv.tsx";
 import MainTitle from "../components/MainTitle.tsx";
+import Title from "../components/Title.tsx";
 
 const EmploymentInfo = styled.div`
     text-align: left;
@@ -31,6 +32,7 @@ const PositionInfo = styled.div`
 export default function Employment(){
     return(
                 <Main>
+                    <Title Title = {"Employment"} />
                     <MainTitle> Work Experience History </MainTitle>
                     <MainDiv>
                         <EmploymentInfo>

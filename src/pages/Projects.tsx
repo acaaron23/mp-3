@@ -5,6 +5,7 @@ import Main from "../components/Main.tsx";
 import MainDiv from "../components/MainDiv.tsx";
 import MainTitle from "../components/MainTitle.tsx";
 import Calculator from "./Calculator.tsx"
+import Title from "../components/Title.tsx";
 
 const ProjectsInfo = styled.div`
     width: 100%;
@@ -27,6 +28,7 @@ export default function Projects() {
     return (
         <>
         <Main>
+            <Title Title = {"Projects"} />
             <MainTitle> Projects Portfolio </MainTitle>
             <MainDiv>
                 <ProjectsInfo>

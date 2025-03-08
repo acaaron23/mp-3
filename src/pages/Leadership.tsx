@@ -1,6 +1,7 @@
 import {styled} from "styled-components";
 import Main from "../components/Main.tsx";
 import MainTitle from "../components/MainTitle.tsx";
+import Title from "../components/Title.tsx";
 
 const BuCSC = styled.div`
     display: flex;
@@ -44,8 +45,9 @@ const LeadershipInfo = styled.div`
 export default function Projects() {
     return (
         <Main>
+            <Title Title = {"Leadership"} />
             <MainTitle> Leadership Roles </MainTitle>
-                <BuCSC>
+            <BuCSC>
                     <BUCSCLogo src = {"/bucsc.png"} alt={"BU CSC Logo"}/>
                     <BUCSCInfo>
                         <h3><b>BU Computer Science Club</b></h3>

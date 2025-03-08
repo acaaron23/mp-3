@@ -1,6 +1,7 @@
 import {styled} from "styled-components";
 import Main from "../components/Main.tsx";
 import MainTitle from "../components/MainTitle.tsx";
+import Title from "../components/Title.tsx";
 
 const MainText = styled.div`
     text-align: center;
@@ -30,6 +31,7 @@ const CodingInfo = styled.div`
 export default function Coding() {
     return (
         <Main>
+            <Title Title = {"Coding"} />
             <MainTitle> Coding Experience </MainTitle>
             <MainText><p> Listed below are my coding experiences!</p></MainText>
             <CodingInfo>

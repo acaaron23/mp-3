@@ -2,6 +2,7 @@ import {styled} from "styled-components";
 import Main from "../components/Main.tsx";
 import MainDiv from "../components/MainDiv.tsx";
 import MainTitle from "../components/MainTitle.tsx";
+import Title from "../components/Title.tsx";
 
 const MainText = styled.p`
     text-align: center;
@@ -40,6 +41,7 @@ const Coursework = styled.div`
 export default function Education() {
     return (
                 <Main>
+                    <Title Title = {"Education"} />
                     <MainTitle>Education</MainTitle>
                     <MainDiv>
                         <MainText>

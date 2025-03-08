@@ -2,6 +2,7 @@ import {styled} from "styled-components";
 import Main from "../components/Main.tsx";
 import MainDiv from "../components/MainDiv.tsx";
 import MainTitle from "../components/MainTitle.tsx";
+import Title from "../components/Title.tsx";
 
 const MainP= styled.div`
     margin: 0 auto;
@@ -52,6 +53,7 @@ const Welcome = styled.p`
 export default function Home(){
     return (
                 <Main>
+                    <Title Title = {"Home"} />
                     <MainP>
                         <MainTitle>Home</MainTitle>
                         <MainDiv>
